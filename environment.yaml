@@ -1,0 +1,16 @@
+name: llt_engine
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - numpy
+  - openpyxl
+  - pyarrow
+  - pip:
+    - fastapi
+    - uvicorn
+    - python-multipart
+    - requests
+    - sentence-transformers  # If local embedding needed
